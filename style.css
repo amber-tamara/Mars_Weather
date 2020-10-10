@@ -1,0 +1,73 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./img/mars.jpg);
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.colorText {
+    color: white;
+    text-align: center;
+}
+
+.weather {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.temp {
+    color: grey;
+}
+
+.infoBox {
+    padding: 15px;
+    margin: 10px;
+    background-color: rgba(75, 75, 75, 0.25);
+}
+
+main {
+    margin-top: auto;
+}
+
+.hl {
+    border-bottom: 1px solid whitesmoke;
+    width: 80px;
+  }
+
+.todays_weather {
+    height: 100px;
+}
